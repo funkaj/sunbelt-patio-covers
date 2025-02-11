@@ -1,0 +1,86 @@
+li > .active {
+	color: rgb(250, 255, 246) !important;
+	font-size: +110%;
+}
+
+.navLink-btn {
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1rem;
+	color: rgba(248, 255, 241, 0.466);
+	border-radius: 3px;
+}
+.active:not(.navLink-title) {
+	color: white;
+	font-size: +110%;
+}
+.navLink-btn:hover {
+	background-color: rgba(37, 29, 44, 0.171);
+	color: rgba(255, 255, 255, 0.781);
+	-moz-box-shadow: inset 0 0 10px #000000b4;
+	-webkit-box-shadow: inset 0 0 10px #000000b4;
+	box-shadow: inset 0 0 10px #000000b4;
+}
+
+.menuBg {
+	justify-content: flex-end !important;
+}
+
+#navBar {
+	background-color: rgb(94, 69, 128);
+}
+
+.navLink {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#primary-search-account-menu-mobile > div > ul {
+	background-color: rgb(121, 89, 165);
+}
+
+.sectionMobile {
+	display: none;
+	color: rgb(248, 255, 241);
+}
+
+#title > .navLink-title {
+	font-family: 'Marcellus SC', serif;
+	color: rgb(248, 255, 241);
+	text-decoration: none;
+}
+/* mobile */
+
+.mobile-navLink-btn {
+	text-decoration: none;
+}
+
+.mobile-navLink-btn > li {
+	color: rgb(214, 212, 212);
+}
+.active > li {
+	color: rgb(255, 253, 253);
+	font-size: +110%;
+}
+
+@media only screen and (max-width: 1300px) {
+	.sectionDesktop {
+		display: none;
+	}
+
+	.sectionMobile {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	#name {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.MuiTypography-h3 > .navLink-title {
+		font-size: 2.5rem;
+	}
+}
