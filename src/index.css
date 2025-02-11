@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
 	overflow: visible;
 }
@@ -42,3 +43,18 @@ red rgb(195,9,15)
 tan rgb(240,179,122)
 gray rgb(57,59,62)
 */
+=======
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+>>>>>>> 83f0b853d809a0febaa35ce034e3e9fc16d254c5
