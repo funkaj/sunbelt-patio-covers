@@ -70,17 +70,17 @@ function ButtonAppBar(props) {
             </MenuItem>
           </NavLink>
           <NavLink
-            id="illustration"
+            id="About"
             className="mobile-navLink-btn"
             activeClassName="active"
-            to="/gallery/illustration"
+            to="/about"
             onClick={change}
           >
             <MenuItem className="menuBg" onClick={handleClose}>
-              Illustration
+              About
             </MenuItem>
           </NavLink>
-          <NavLink
+          {/* <NavLink
             id="web-development"
             className="mobile-navLink-btn"
             activeClassName="active"
@@ -90,7 +90,7 @@ function ButtonAppBar(props) {
             <MenuItem className="menuBg" onClick={handleClose}>
               Web Development
             </MenuItem>
-          </NavLink>
+          </NavLink> */}
           <NavLink
             id="contact-navigation"
             className="mobile-navLink-btn"
@@ -113,7 +113,7 @@ function ButtonAppBar(props) {
         <Toolbar className="navLink">
           <Typography id="title" variant="h3" className={classes.grow}>
             <NavLink exact className="navLink-title" to="/">
-              Adam Funk
+              Sunbelt Patio Covers
             </NavLink>
           </Typography>
           <div className="sectionDesktop">
@@ -127,6 +127,28 @@ function ButtonAppBar(props) {
               Home
             </NavLink>
             <NavLink
+              id="About"
+              className="mobile-navLink-btn"
+              activeClassName="active"
+              to="/about"
+              onClick={change}
+            >
+              <MenuItem className="menuBg" onClick={handleClose}>
+                About
+              </MenuItem>
+            </NavLink>
+            <NavLink
+              id="contact-navigation"
+              className="mobile-navLink-btn"
+              activeClassName="active"
+              to="/contact"
+              onClick={change}
+            >
+              <MenuItem className="menuBg" onClick={handleClose}>
+                Contact Us
+              </MenuItem>
+            </NavLink>
+            {/* <NavLink
               id="illustration"
               className="navLink-btn"
               activeClassName="active"
@@ -134,8 +156,8 @@ function ButtonAppBar(props) {
               onClick={change}
             >
               Illustration
-            </NavLink>
-            <NavLink
+            </NavLink> */}
+            {/* <NavLink
               id="web-development"
               className="navLink-btn"
               activeClassName="active"
@@ -143,7 +165,7 @@ function ButtonAppBar(props) {
               onClick={change}
             >
               Web Development
-            </NavLink>
+            </NavLink> */}
           </div>
           <div className="sectionMobile">
             <IconButton

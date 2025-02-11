@@ -12,7 +12,7 @@ class Splash extends Component {
       <div>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Adam Funk Art</title>
+          <title>Sunbelt Patio Covers</title>
           <meta
             name="keywords"
             content="adam, funk, art, illustration, frontend, web development, magento, magento 2, react, nodejs"
@@ -24,16 +24,14 @@ class Splash extends Component {
         </Helmet>
         {/* <Layout /> */}
         <div id="mainImg">
-          <LazyLoad>
+          {/* <LazyLoad>
             <ImageLoader
               src={process.env.PUBLIC_URL + "/images/jpg/ninja1.jpg"}
               alt="Illustration of Ninja by Adam Funk"
             />
-          </LazyLoad>
+          </LazyLoad> */}
           <div id="brand">
-            <div className="name">Adam</div>
-            <div className="name">Funk</div>
-            <div className="title">Illustrator / Web Development</div>
+            <div className="title">Sunbelt Patio Covers</div>
           </div>
         </div>
       </div>

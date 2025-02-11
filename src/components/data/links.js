@@ -1,9 +1,9 @@
 export const linkData = [
   {
-    icon: "fab fa-github-alt fa-2x",
-    link: "https://github.com/funkaj",
-    name: "GitHub",
-    type: "github",
+    icon: "fab fa-facebook fa-2x",
+    link: "https://www.facebook.com/profile.php?id=61568912496120",
+    name: "Facebook",
+    type: "facebook",
   },
   {
     icon: "fab fa-linkedin-in fa-2x",
@@ -14,7 +14,7 @@ export const linkData = [
   {
     icon: "fas fa-envelope fa-2x",
     // link: "/contact",
-    link: "mailto: adamfunkart@gmail.com",
+    link: "/contact",
     name: "Email",
     type: "email",
   },

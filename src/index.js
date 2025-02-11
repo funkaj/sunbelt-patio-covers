@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 import React from "react";
-// import useState from "react";
 import ReactDOM from "react-dom";
 import { Route, HashRouter, Switch } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
@@ -8,7 +6,7 @@ import AppBar from "./components/nav";
 import Contact from "./components/contactnav";
 import Footer from "./components/footer";
 import Gallery from "./components/pages/gallery";
-import Illustration from "./components/pages/illustrations";
+import About from "./components/pages/about";
 import Main from "./components/pages/main";
 import ContactPage from "./components/pages/contact";
 import NotFound from "./components/pages/404";
@@ -23,8 +21,8 @@ const routing = (
       <Route exact path="/" component={Main} />
       <Route path="/index" component={Main} />
       <Route path="/contact" component={ContactPage} />
-      <Route path="/gallery/illustration" component={Illustration} />
-      <Route path="/gallery/web-development" component={Gallery} />
+      <Route path="/about" component={About} />
+      {/* <Route path="/gallery/web-development" component={Gallery} /> */}
       <Route component={NotFound} />
     </Switch>
     <Footer />
@@ -32,24 +30,3 @@ const routing = (
 );
 
 ReactDOM.render(routing, document.getElementById("root"));
-
-// serviceWorker.register();
-=======
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
->>>>>>> 83f0b853d809a0febaa35ce034e3e9fc16d254c5

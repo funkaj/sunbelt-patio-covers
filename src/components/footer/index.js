@@ -25,9 +25,9 @@ class Footer extends Component {
           // className={classes.root}
         >
           <BottomNavigationAction
-            label="Github"
+            label="Facebook"
             icon={
-              <MyIcon id="bottomGithub" linkData={this.state.linkData[0]} />
+              <MyIcon id="bottomFacebook" linkData={this.state.linkData[0]} />
             }
           />
           <BottomNavigationAction
@@ -45,14 +45,14 @@ class Footer extends Component {
               <MyIcon id="bottomContact" linkData={this.state.linkData[2]} />
             }
           />
-          <BottomNavigationAction
+          {/* <BottomNavigationAction
             label="Resume"
             icon={
               <MyIcon id="bottomResume" linkData={this.state.linkData[3]}>
                 <span className="icon-title">Resume</span>
               </MyIcon>
             }
-          />
+          /> */}
         </BottomNavigation>
       </div>
     );
