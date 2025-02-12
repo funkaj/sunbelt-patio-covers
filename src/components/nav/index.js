@@ -5,7 +5,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import ImageLoader from "../../animation/imageloader";
+import ImageLoader from "../animation/imageloader";
 import AppBar from "@material-ui/core/AppBar";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -107,6 +107,7 @@ function ButtonAppBar(props) {
       {/* mobile end */}
     </div>
   );
+  console.log(process.env);
   return (
     <div className={classes.root}>
       <AppBar id="navBar" className="plaid" position="static">
