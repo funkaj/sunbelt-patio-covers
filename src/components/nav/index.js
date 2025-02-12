@@ -115,8 +115,10 @@ function ButtonAppBar(props) {
           <Typography id="title" variant="h3" className={classes.grow}>
             <NavLink exact className="navLink-title" to="/">
               <ImageLoader
-                src={process.env.PUBLIC_URL + "/images/png/sunbelt_logo.png"}
+                // src={process.env.PUBLIC_URL + "/images/png/sunbelt_logo.png"}
+                src={"/images/png/sunbelt_logo.png"}
                 alt="Sunbelt Patio Covers"
+                width="250px"
               />
             </NavLink>
           </Typography>
