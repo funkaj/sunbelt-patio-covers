@@ -1,7 +1,7 @@
 #bottom-mobile-nav {
 	display: none;
 	font-size: 1.5rem;
-	background-color: rgb(109, 122, 96);
+	background-color: rgb(239, 155, 9);
 	box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
 		0px 4px 0px 5px rgba(0, 0, 0, 0.14), 0px 0px 10px 15px rgba(0, 0, 0, 0.12);
 }

@@ -27,7 +27,7 @@ li > .active {
 }
 
 #navBar {
-	background-color: rgb(244, 201, 73);
+	background-color: rgb(236, 236, 234);
 }
 
 #navBar #title {
@@ -49,7 +49,7 @@ li > .active {
 }
 
 #primary-search-account-menu-mobile > div > ul {
-	background-color: rgb(121, 89, 165);
+	background-color: rgb(251, 251, 251);
 }
 
 .sectionMobile {
@@ -76,6 +76,9 @@ li > .active {
 	font-size: +110%;
 }
 
+.navLink-title .img-loaded{
+	width: 250px;
+}
 @media only screen and (max-width: 1300px) {
 	#navBar .sectionDesktop {
 		display: none;

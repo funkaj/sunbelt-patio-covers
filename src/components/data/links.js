@@ -6,10 +6,10 @@ export const linkData = [
     type: "facebook",
   },
   {
-    icon: "fab fa-linkedin-in fa-2x",
-    link: "https://www.linkedin.com/in/adam-funk-5831b8152/",
-    name: "LinkedIn",
-    type: "linkedIn",
+    icon: "fas fa-home",
+    link: "https://nextdoor.com/pages/sunbelt-patio-covers-menifee-ca/",
+    name: "NextDoor",
+    type: "nextdoor",
   },
   {
     icon: "fas fa-envelope fa-2x",

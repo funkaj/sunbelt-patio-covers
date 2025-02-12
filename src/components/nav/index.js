@@ -118,7 +118,6 @@ function ButtonAppBar(props) {
                 // src={process.env.PUBLIC_URL + "/images/png/sunbelt_logo.png"}
                 src={"/images/png/sunbelt_logo.png"}
                 alt="Sunbelt Patio Covers"
-                width="250px"
               />
             </NavLink>
           </Typography>
