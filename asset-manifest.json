@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sunbelt-patio-covers/static/css/main.21ad0040.chunk.css",
-    "main.js": "/sunbelt-patio-covers/static/js/main.fb8c08ba.chunk.js",
-    "main.js.map": "/sunbelt-patio-covers/static/js/main.fb8c08ba.chunk.js.map",
+    "main.js": "/sunbelt-patio-covers/static/js/main.832ac563.chunk.js",
+    "main.js.map": "/sunbelt-patio-covers/static/js/main.832ac563.chunk.js.map",
     "runtime-main.js": "/sunbelt-patio-covers/static/js/runtime-main.0906b138.js",
     "runtime-main.js.map": "/sunbelt-patio-covers/static/js/runtime-main.0906b138.js.map",
     "static/js/2.c145a6ab.chunk.js": "/sunbelt-patio-covers/static/js/2.c145a6ab.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.0906b138.js",
     "static/js/2.c145a6ab.chunk.js",
     "static/css/main.21ad0040.chunk.css",
-    "static/js/main.fb8c08ba.chunk.js"
+    "static/js/main.832ac563.chunk.js"
   ]
 }
