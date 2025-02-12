@@ -1,8 +1,7 @@
 export const devData = [
   {
     author: "Adam Funk",
-    description:
-      "First-Aid-Product.com: First Aid Kits - America's Favorite First Aid™ First Aid &amp; First Aid Supplies Wholesale Direct to the Public for over 25 years! CPR, First Aid Supply, Survival &amp; Emergency Gear: Welcome to First-Aid-Product.com! OSHA 1st Aid, Safety + More",
+    description: "Sunbelt Patio Covers Logo",
     featured: false,
     icon: "fab fa-linkedin-in fa-lg",
     img: "/images/png/FAP.png",

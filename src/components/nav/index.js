@@ -5,7 +5,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-
+import ImageLoader from "../../animation/imageloader";
 import AppBar from "@material-ui/core/AppBar";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -113,7 +113,10 @@ function ButtonAppBar(props) {
         <Toolbar className="navLink">
           <Typography id="title" variant="h3" className={classes.grow}>
             <NavLink exact className="navLink-title" to="/">
-              Sunbelt Patio Covers
+              <ImageLoader
+                src={process.env.PUBLIC_URL + "/images/png/sunbelt_logo.png"}
+                alt="Sunbelt Patio Covers"
+              />
             </NavLink>
           </Typography>
           <div className="sectionDesktop">

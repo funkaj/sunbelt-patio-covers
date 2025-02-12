@@ -3,9 +3,9 @@ export const illustrationData = [
     art: true,
     author: "Adam Funk",
     featured: false,
-    img: "/images/jpg/ninja1_thumb.jpg",
-    imgalt: "/images/png/ninja1.png",
-    title: "Ninja",
+    img: "/images/png/sunbelt_logo.png",
+    imgalt: "/images/png/sunbelt_logo.png",
+    title: "Sunbelt Patio Covers",
   },
   {
     art: true,
